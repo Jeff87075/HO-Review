@@ -3,7 +3,7 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c( "tidyverse","ggridges", "bslib","ggplot2","shiny")
+my_packages = c( "devtools","tidyverse","ggridges", "bslib","ggplot2","shiny")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
