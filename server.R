@@ -1,3 +1,9 @@
+library(shiny)
+library(bslib)
+library(tidyverse)
+library(ggridges)
+library(ggplot2)
+
 # Define server logic ----
 server <- function(input, output) {
   
