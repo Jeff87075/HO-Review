@@ -5,7 +5,7 @@ library(tidyverse)
 library(ggridges)
 library(ggplot2)
 
-compilation = read.csv("D:/Careers/HO Review/Web app/compilation.csv")
+compilation = read.csv("compilation.csv")
 
 # Define UI ----
 
